@@ -1,44 +1,54 @@
-# What is HiddifyWithPanels
+# 什么是 HiddifyWithPanels？
 
-For those who know, they know. For those who don’t, take your time to learn.
+对于了解的人来说，这无需多言；对于不了解的人，慢慢学习便是。
 
-## Project Progress
-- As of October 16, 2024, all features have been developed and no critical bugs remain. This marks the completion of version 1.0.
+---
 
-## Join the TG Group Chat
+## 项目进展
+- 截至 **2024年10月16日**，所有功能已经开发完成，且没有任何关键Bug，这标志着版本 **1.0** 的正式完成。
 
-Feel free to join the V2Hiddify TG group chat for discussions and support: [V2Hiddify TG Group](https://t.me/V2Hiidify).
+---
 
-## Features
-- [x] **OSS Support**: Automatic domain switching.
-- [x] **Login with Panel Account**: Allows users to log in using panel accounts.
-- [x] **Registration**: Provides user registration functionality.
-- [x] **Password Recovery**: Offers password recovery options.
-- [x] **Auto Subscription**: Automatically adds a subscription after purchasing a plan.
-- [x] **Plan Information Display**: Shows the user’s current plan information.
-- [x] **Payment Integration**: Supports payment platform integration.
-- [x] **Plan Purchase**: Allows users to purchase different plans.
-- [x] **Auto Subscription after Purchase**: Automatically adds a subscription post-purchase.
-- [x] **Logout**: Users can log out.
-- [x] **Localization Support**: Supports both English and Chinese localization.
-- [x] **Invitation Codes**: Allows generation and copying of invitation codes.
-- [x] **Wallet**: Supports wallet functionality, transfers, and withdrawals.
-- [x] **Reset Subscription Link**: Supports resetting subscription links and automatic subscription to V2Hiddify.
+## 加入 TG 群聊
 
-## Installation Steps
+欢迎加入 V2Hiddify TG 群聊，与社区进行交流与技术支持：[V2Hiddify TG 群聊](https://t.me/V2Hiidify)
 
-### 1. Clone the Repository
+---
 
-First, clone the project repository locally:
+## 功能特性
+
+- [x] **OSS 支持**：支持自动域名切换。
+- [x] **面板账号登录**：允许用户使用面板账号登录。
+- [x] **注册功能**：提供用户注册功能。
+- [x] **密码找回**：提供密码找回选项。
+- [x] **自动订阅**：购买套餐后自动添加订阅。
+- [x] **套餐信息展示**：显示用户当前的套餐信息。
+- [x] **支付集成**：支持支付平台集成。
+- [x] **购买套餐**：允许用户购买不同套餐。
+- [x] **购买后自动订阅**：购买后自动添加订阅。
+- [x] **登出功能**：支持用户退出登录。
+- [x] **本地化支持**：支持英文和中文双语本地化。
+- [x] **邀请码功能**：支持邀请码生成和复制。
+- [x] **钱包功能**：支持钱包功能，包括转账与提现。
+- [x] **重置订阅链接**：支持重置订阅链接并自动订阅 V2Hiddify。
+
+---
+
+## 安装步骤
+
+### 1. 克隆代码仓库
+
+首先，将项目代码克隆到本地：
 
 ```bash
 git clone https://github.com/V2hiddify/HiddifyWithPanels
 cd HiddifyWithPanels
+
 ```
 
-### 2. Prepare Dependencies
+### 2. 准备依赖环境
 
-Run the following commands based on your operating system to set up dependencies:
+根据操作系统运行以下命令，完成依赖环境的配置：
 
 - **Windows**:
 
@@ -70,50 +80,49 @@ Run the following commands based on your operating system to set up dependencies
   make android-prepare
   ```
 
-### 3. Run the Project
+### 3.运行项目
 
-Once dependencies are prepared, use Flutter to run the project:
+依赖配置完成后，使用 Flutter 运行项目：
 
 ```bash
 flutter run
 ```
 
-### 5. Build the Application
+### 5. 构建应用
 
-- Build for Android:
+- 构建 Android 应用：
 
   ```bash
   flutter build apk
   ```
 
-- Build for iOS:
+- 构建 iOS 应用：
 
   ```bash
   flutter build ios
   ```
 
-- Build for macOS:
+- 构建 macOS 应用：
 
   ```bash
   flutter build macos
   ```
 
-- Build for Windows:
-
+- 构建 Windows 应用：
   ```bash
   flutter build windows
   ```
 
 ---
 
-Following these steps, you can customize and package your V2Hiddify client to suit your panel needs.
+完成上述步骤后，您可以根据面板需求，自定义并打包您的 V2Hiddify 客户端。
 
 
-### Support This Project
+### 支持此项目
 
-Supporting individual developers is not easy; if this project has been helpful to you, feel free to support it with a donation.
+开发者个人维护项目并不容易，如果此项目对您有所帮助，欢迎通过捐赠支持开发工作。
 
-**Wallet Address (USDT-TRC20):**
+**钱包地址 (USDT-TRC20)：**
 ```
 TFPvpxb5k2mYYcvABe5BrCz7Tt6BhnZxxj
 ```
